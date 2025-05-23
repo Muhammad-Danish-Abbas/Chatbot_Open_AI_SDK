@@ -1,2 +1,69 @@
-# Chatbot_Open_AI_SDK
+# 🤖 Open_AI_SDK_Chatbot
+Welcome to the **Open_AI_SDK_Chatbot** project! This chatbot uses OpenAI and Chainlit to deliver intelligent, interactive conversations. Built with modern tools like `uv`, it's easy to set up and run.
 Open_AI_SDK_Chatbot is a chatbot project built using OpenAI's SDK. It leverages AI capabilities to provide intelligent, interactive conversations. This repo includes the source code, setup instructions, and examples for easy integration. Perfect for developers looking to build AI-powered chat applications quickly and efficiently.
+
+---
+
+[OpenAI](https://openai.com) 
+
+---
+
+## 🚀 Quick Setup Guide
+
+Follow these steps to set up your chatbot:
+
+### 1. Initialize the Project
+```bash
+uv init --package chatbot
+cd chatbot
+code .
+```
+### 2. Run Initial Test
+```bash
+uv run chatbot
+```
+###3. Install Required Packages
+Run in PowerShell:
+```bash
+uv add openai-agents
+uv add chainlit
+
+```
+###4. Test Chainlit Installation
+```bash
+uv run chainlit hello
+
+```
+##🛠️ Project Files
+chatbot.py – Main chatbot application file.
+
+.env – Contains your Gemini API key.
+
+Example .env:
+```bash
+GOOGLE_API_KEY=your_gemini_api_key_here
+
+GEMINI_API_KEY=AIzaSyDPsgnisQyjQFdvUE-nBTA8cj9XTvWWN8w
+
+```
+## 
+💻 Run the Chatbot
+Choose your preferred port:
+```bash
+uv run chainlit run chatbot.py -w --port 8000
+```
+OR
+```bash
+uv run chainlit run chatbot.py -w --port 8001
+```
+#📚 Resources
+[OpenAI](https://openai.com) 
+Chainlit Documentation
+[Chainlit Documentation](https://docs.chainlit.io)
+
+Join Chainlit Discord
+[Join Chainlit Discord](https://discord.gg/k73SQ3FyUh)
+ 
+  
+
+
