@@ -4,7 +4,7 @@
 
 Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
 
-The **Open_AI_SDK_Chatbot** project! This chatbot uses OpenAI and Chainlit to deliver intelligent, interactive conversations. Built with modern tools like `uv`, it's easy to set up and run.
+< The **Open_AI_SDK_Chatbot** project! This chatbot uses OpenAI and Chainlit to deliver intelligent, interactive conversations. Built with modern tools like `uv`, it's easy to set up and < run.
 Open_AI_SDK_Chatbot is a chatbot project built using OpenAI's SDK. It leverages AI capabilities to provide intelligent, interactive conversations. This repo includes the source code, setup instructions, and examples for easy integration. Perfect for developers looking to build AI-powered chat applications quickly and efficiently.
 
 ---
